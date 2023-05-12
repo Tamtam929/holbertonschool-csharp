@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # initializes, builds, and runs a C# project in a folder
-dotnet new console -o 8-print_last_digit
-dotnet build "8-print_last_digit"
+dotnet new console -o 9-add
+dotnet build "9-add"
