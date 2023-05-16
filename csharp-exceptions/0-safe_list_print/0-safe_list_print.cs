@@ -1,24 +1,23 @@
-﻿using System;
+﻿﻿using System;
 using System.Collections.Generic;
 
 class List
 {
     public static int SafePrint(List<int> myList, int n)
     {
-        int count = 0;
-
-        for (int i = 0; i < n; i++, count++)
+        int toPrint = n;
+        int printed = 0;
+        try
         {
-            try
+            for(;  printed < toPrint; printed++)
             {
-                Console.WriteLine(myList[i]);
-            }
-            catch (System.Exception)
-            {
-                break;
+                Console.WriteLine(myList[printed]);
             }
         }
+        catch
+        {
 
-        return (count);
+        }
+        return (printed);
     }
 }
