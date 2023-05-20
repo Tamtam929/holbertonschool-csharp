@@ -1,7 +1,9 @@
-﻿class Except
+﻿﻿using System;
+
+public class Except
 {
     public static void Throw()
     {
-        throw new System.Exception();
+        throw new Exception();
     }
 }
