@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # initializes, builds, and runs a C# project in a folder
-dotnet new console -o 6-vector_addition
-dotnet build "6-vector_addition"
+dotnet new console -o 9-vector_scalar_mul
+dotnet build "9-vector_scalar_mul"
