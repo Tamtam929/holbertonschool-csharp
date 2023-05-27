@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # initializes, builds, and runs a C# project in a folder
-dotnet new console -o 3-peek
-dotnet build "3-peek"
+dotnet new console -o 4-print
+dotnet build "4-print"
